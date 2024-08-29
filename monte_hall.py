@@ -18,7 +18,7 @@ import random
 doors = [0]*3
 goatdoor = [0]*2
 swap = 0 # no. of swap wins
-dont_swap = 0 # no. of don't swap means
+dont_swap = 0 # no. of don't swap wins
 j=0
 while(j<10):
     x = random.randint(0,2) # xth door will comprise of car

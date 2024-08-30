@@ -46,6 +46,7 @@ print(random.randrange(1,10,2))
 print(random.randrange(0,11,2))
 # it will generate even numbers from 0-10
 
+
 print(random.choice([1,2,3,5,7,10]))
 # it generates random numbers from given list
 

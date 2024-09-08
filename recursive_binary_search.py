@@ -6,7 +6,7 @@ def binary_Search(arr,x,left,right):
       return -1
   else:
     mid  = int((left+right)/2)
-    if arr[mid]==x:
+    if arr[mid]==x: 
       return mid
     elif arr[mid]>x:
       return binary_Search(arr,x,left,mid-1)
